@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+ 
+ 
+ 
+ header{
+  background-color:rgb(6, 6, 6) ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+
+  padding: 30px 0;
+}
+.logo{
+padding-left: 70px;
+  width: 200px  ;
+}
+
+   ul li{ 
+    display: inline-block;
+    list-style: none;
+    padding-right: 100;
+    
+  
+   }
+   ul li a{
+    color:white;
+    text-decoration: none;
+    margin: 0 20px;
+   }
+   .content {
+    padding: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+   }
+  .content .text {
+    width: 40%;
+  }
+  ;
+  .content .text h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .content .text p { 
+    font-size: 18px;
+  margin: 20px 0;
+}
+.content .text a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 8px 10;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 1s; }
+
+  .content .image {
+
+    width: 30%;
+  }
+ 
+.content .image img {
+   width: 500px;
+}
+a :hover{
+  background-color: gray;
+}
+
+.icons {
+  padding-left: 20%;
+
+}
+a.view { 
+  background-color: grey;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+ margin-left: 90%;
+ text-decoration: none;
+ padding: 5px 5;
+ transition: 1s;
+}
+a.view :hover {
+transform: scale(1);
+}
+
+
+
+.icons img{
+  width: 200px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.aa{
+ display: inline-block;
+  color:black;
+  cursor: pointer;
+  background-color: aqua;
+  Margin: 10px;
+  text-decoration: none;
+  align-items: center;
+ background-size: 100%;
+}
+.last {
+  
+    background-color:aqua ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+  
+    padding: 30px 0;
+}
